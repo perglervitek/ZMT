@@ -156,7 +156,7 @@ a#begin-btn {
 .navigation-up {
   position: relative;
   width: 60px;
-  top: -5vh;
+  top: -25vh;
   height: 60px;
   background-size: cover;
   background-position: center;
@@ -166,7 +166,7 @@ a#begin-btn {
 .navigation-down {
   position: relative;
   width: 60px;
-  top: 5vh;
+  top: 25vh;
   height: 60px;
   background-size: cover;
   background-position: center;
