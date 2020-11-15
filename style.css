@@ -114,7 +114,17 @@ div {
   background-image: url('img/audio.png');
 }
 
+#video-img{
+  background-image: url('img/video.png');
+}
 
+#obraz-img{
+  background-image: url('img/obraz.png');
+}
+
+#uspani-img{
+  background-image: url('img/uspani.jpg');
+}
 #video.container {
   height: 100vh;
   margin-top: 25px;
