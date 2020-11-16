@@ -97,6 +97,16 @@ div {
   flex-direction: column;
 }
 
+#konec.container {
+  height: 100vh;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .start {
   display: flex;
   justify-content: center;
@@ -140,6 +150,13 @@ a#begin-btn {
 }
 #video-down {
   top: 5vh;
+}
+
+.long-nav-up {
+  top: -15vh;
+}
+.long-nav-down {
+  top: 15vh;
 }
 
 .content {
