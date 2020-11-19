@@ -26,7 +26,7 @@
         <iframe
           width="1300"
           height="700"
-          src="https://www.youtube.com/embed/lkuO7RZkI_Q"
+          src="https://www.youtube.com/embed/81AJYgvwQ6o"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -37,13 +37,14 @@
       <section class="container" id="scenar">
         <article class="content">
           <a class="navigation-up long-nav-up" href="#video"></a>
-            <h1>Scénář projektu</h1>
+            <h1>Scénář projektu - 4 části</h1>
               <ul>
-                <li>Prázdný/ spící autobus – zvuk chrápání</li>
-                <li>Probuzení autobusu – budík</li>
-                <li>Příjezd autobusu na první zastávku</li>
+                <li>Úvodní scéna</li>
+                <ul>
+                  <li>Spící autobus, zazvoní budík, probuzení</li>
+                </ul>
+                <li>Autobus přijede na zastávku a nabere lidi</li>
                 <li>Cesta autobusem skrz některé zastávky</li>
-                <li>Animace jedoucího autobusu skrz obrazovku</li>
                 <li>Zaparkování autobusu – zívnutí a spánek / chrápání</li>
               </ul>          
           </div>
@@ -58,10 +59,12 @@
           <div>
             <h1>Úvodní scéna</h1>
             <ul>
-              <li>Zaparkovaný autobus</li>
-              <li>Zvuk chrápání</li>
-              <li>Zvukem budíku vzbudí autobus</li>
-              <li>Probuzení (nastartování)</li>
+              <li>Statický obrázek zaparkovaného autobusu</li>
+              <ul>
+                <li>Zvukový efekt chrápání a budíku</li>
+                <li>Změna poměru stran obrázku</li>
+                <li>Úpravy barev, jasu, kontrastu</li>
+              </ul>
             </ul>
           </div>
           <a href="#prijezd" class="navigation-down"></a>
@@ -75,9 +78,13 @@
           <div>
             <h1>Příjezd na zastávku</h1>
             <ul>
-              <li>Autobus přijíždí na první zastávku</li>
-              <li>Čeká na cestující</li>
-              <li>Odjezd ze zastávky</li>
+              <li>1. vstupní videosekvence</li>
+              <ul>
+                <li>Změna rozlišení na Full HD FFMPEG</li>
+                <li>Střih</li>
+                <li>Úprava jasu, barev, kontrastu</li>
+                <li>Ke konci zvuk překrývá zvukový efekt jízdy autobusu, <br> upravení hlasitosti v Audacity.</li>
+              </ul>
             </ul>
           </div>
           <a href="#prujezd" class="navigation-down"></a>
@@ -91,8 +98,16 @@
           <div>
             <h1>Průjezd zastávkami</h1>
             <ul>
-              <li>Animace autobusu</li>
               <li>Autobus projíždí zastávkami</li>
+              <ul>
+                <li>Střídají se statické obrázky zastávek jako pozadí</li>
+                <li>Bylo potřeba sjednotit jejich poměr stran na 16:9, <br> abychom se vyhli černým pruhům</li>
+              </ul>
+              <li>Animace autobusu</li>
+              <ul>
+                <li>Transformace objektu</li>
+                <li>Obrázek ve formátu PNG, přidán alpha kanál</li>
+              </ul>
               <li>Zvuk z kabiny autobusu</li>
             </ul>
           </div>
@@ -107,10 +122,13 @@
           <div>
             <h1>Uspání autobusu</h1>
             <ul>
-              <li>Příjezd autobusu na parkoviště</li>
-              <li>Vypnutí autobusu</li>
-              <li>Unavený autobus</li>
-              <li>Spánek autobusu</li>
+              <li>2. Vstupní videosekvence</li>
+              <ul>
+                <li>Přechod z obrázku - stmívačka</li>
+                <li>Střih</li>
+                <li>Zvukové efekty zívnutí a chrápání</li>
+                <li>Objevení titulků</li>
+              </ul>
             </ul>
           </div>
           <a href="#prace-video" class="navigation-down"></a>
@@ -125,13 +143,13 @@
             <h1>Práce s videem</h1>
             <ul>
               <li>Openshot, FFMPEG</li>
-              <li>2 vstupní videosekvence</li>
+              <li>2 vstupní videosekvence, pořízeny kamerou <br> v mobilním telefonu</li>
               <li>Vytvoření časové osy</li>
               <li>Změna obnovovací frekvence vstupních videí pomocí FFMPEG</li>
               <li>Střih vstupních videí</li>
               <li>Přechod stmívačka</li>
               <li>Animace (transformace) objektu</li>
-              <li>Prezentace statických obrázků</li>
+              <li>Určení délky prezentace statických obrázků</li>
             </ul>
           </div>
           <a href="#prace-zvuk" class="navigation-down long-nav-down"></a>
@@ -146,6 +164,7 @@
             <h1>Práce se zvukem</h1>
             <ul>
               <li>Audacity</li>
+              <li>Nalezení vhodných copyright free stock materiálů</li>
               <li>Úprava délky - selection</li>
               <li>Úprava hlasitosti - amplify</li>
               <li>Úprava šumu - noise reduction</li>
@@ -167,6 +186,7 @@
             <ul>
               <li>GIMP</li>
               <li>7 vstupních obrázků</li>
+              <li>3 pořízeny vlastní technikou</li>
               <li>Úprava poměru stran a rozlišení</li>
               <li>Úprava barev, jasu, kontrastu</li>
               <li>Úprava autobusu k animaci - alpha kanál</li>
